@@ -1,0 +1,5 @@
+>django-admin startproject ProTwo
+
+(mydjangoenv1) K:\PythonFullStack\1_Django\ProTwo>python manage.py startapp appTwo
+
+1_Django\ProTwo>python manage.py runserver
