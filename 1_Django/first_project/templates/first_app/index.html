@@ -1,11 +1,13 @@
 <!DOCTYPE html>
+{% load staticfiles %}
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>First App</title>
+    <title>Django Guitar App</title>
+    <link rel="stylesheet" href="{% static "css/mystyle.css"%}">
   </head>
   <body>
-   <h1>Hello Index html</h1>
+   <h1>Thus picture of Django</h1>
+   <img src="{% static "images/images.jpeg"%}" alt="image">
   </body>
-  {{insert_me}}
 </html>
