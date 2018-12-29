@@ -3,9 +3,9 @@ from appTwo.models import User
 # Create your views here.
 
 def index(request):
-    return render(request, 'app_two/index.html')
+    return render(request, 'appTwo/index.html')
 
 def users(request):
     user_list = User.objects.order_by('first_name')
     user_dict = {'users': user_list}
-    return render(reqest, 'app_two/user.html', context=user_dict)
+    return render(reqest, 'appTwo/user.html', context=user_dict)
