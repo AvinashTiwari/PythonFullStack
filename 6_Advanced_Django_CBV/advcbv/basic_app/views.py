@@ -1,5 +1,7 @@
 from django.shortcuts import render
-from django.views.generic import View, TemplateView
+from django.urls  import reverse_lazy
+from django.http import HttpResponse
+from django.views.generic import View, TemplateView, ListView, DetailView, CreateView, UpdateView,DeleteView,View
 # Create your views here
 from . import models
 
